@@ -1,0 +1,19 @@
+package com.blueyonder.loginservice.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.core.userdetails.UserDetailsService;
+@Configuration
+@EnableWebSecurity
+public class SecurityConfig {
+	//This is for configuration for authorization and authentication
+	@Bean
+	public UserDetailsService userDetailsService()
+	
+	{
+		return null;
+	}
+	
+
+}

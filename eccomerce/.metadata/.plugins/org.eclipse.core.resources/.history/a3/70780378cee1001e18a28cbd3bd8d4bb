@@ -1,0 +1,22 @@
+package com.blueyonder.loginservice.service;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class JwtService {
+
+    public String generateToken(String userName){
+        Map<String,Object> claims=new HashMap<>();
+        return createToken(claims,userName);
+    }
+
+	private String createToken(Map<String, Object> claims, String userName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

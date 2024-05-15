@@ -1,0 +1,24 @@
+package com.blueyonder.loginservice.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.blueyonder.loginservice.Dto.LoginAuthRequest;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+
+@RestController
+@CrossOrigin("*")
+public class LoginController {
+	@PostMapping("/authenticate")
+	public ResponseEntity<String> postMethodName(@RequestBody LoginAuthRequest loginAuthRequest) {
+		
+		
+		return null;
+	}
+	
+
+}

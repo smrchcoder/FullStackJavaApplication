@@ -1,0 +1,5 @@
+package com.blueyonder.loginservice.Dto;
+
+public class SignUpRequest {
+
+}

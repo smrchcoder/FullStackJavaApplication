@@ -1,0 +1,18 @@
+
+w
+java:S4973'"<Strings and Boxed types should be compared using "equals()".8ñŞÉä1b de0219f9333d57ea89a9ba235df098bah
+g
+java:S1128",Remove this unused import 'java.io.Console'.8ÿÄİä1b f3cdcdd981aa454285f8ba1de09c8f56h
+}
+java:S6813"BRemove this field injection and use constructor injection instead.8ô·Å‡ä1b 0132ec8cee01c5dd244e1a60fe6448a1h
+€	java:S112,"FDefine and throw a dedicated exception instead of using a generic one.8Œ×’Šä1b 15452a9b0f2356c3dabe720a67728b3dh
+}
+java:S2094;"BRemove this empty class, write its code or make it an "interface".8Œ×’Šä1b fa535ffb25e1fd20341652f9be21e06eh
+€	java:S1124"FDefine and throw a dedicated exception instead of using a generic one.8ñŞÉä1b 15452a9b0f2356c3dabe720a67728b3dh
+}
+java:S6813"BRemove this field injection and use constructor injection instead.8Œ×’Šä1b 0132ec8cee01c5dd244e1a60fe6448a1h
+e	java:S106&"+Replace this use of System.out by a logger.8Œ×’Šä1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S1063"+Replace this use of System.out by a logger.8ÿÄİä1b bb1c3f2ea781263d3a2bb92b06a2061fh
+x
+java:S1128"=Remove this unused import 'io.netty.util.ThreadDeathWatcher'.8ñŞÉä1b 65ff3efa82d325325d3c35f541068789h
+€	java:S112""FDefine and throw a dedicated exception instead of using a generic one.8Œ×’Šä1b 15452a9b0f2356c3dabe720a67728b3dh

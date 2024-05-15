@@ -1,0 +1,11 @@
+package com.blueyonder.loginservice.services;
+
+import com.blueyonder.loginservice.entities.Category;
+
+public interface CategoryService {
+	public Category addCategory(Category category);
+	public boolean deleteCustomer();
+	public Category getCategoryById(Integer categoryId);
+	 public Category getAllCategory();
+
+}

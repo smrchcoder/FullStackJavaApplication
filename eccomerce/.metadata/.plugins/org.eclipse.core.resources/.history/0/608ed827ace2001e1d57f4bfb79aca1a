@@ -1,0 +1,37 @@
+server:
+  port: 8060
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8061/eureka/
+
+logging:
+  pattern: 
+    console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
+              
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+      - id: login-service
+        uri: lb://login-service
+        predicates:
+        - Path=/login/**
+        filters:
+        - RewritePath=/login/(?<path>.*), /$\{path}
+      - id: helloworld2-service
+        uri: lb://shopppingservice
+        predicates:
+        - Path=/shop/**
+        filters:
+        - RewritePath=/shop/(?<path>.*), /$\{path}
+      - id: login-service
+        uri: lb://loginservice
+        predicates:
+        - Path=/loginservic/**
+        filters:
+        - RewritePath=/loginservice/(?<path>.*), /$\{path}

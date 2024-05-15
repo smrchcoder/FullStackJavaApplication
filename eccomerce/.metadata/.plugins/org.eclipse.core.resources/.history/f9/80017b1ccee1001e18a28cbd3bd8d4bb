@@ -1,0 +1,11 @@
+package com.blueyonder.loginservice.service;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class JwtService {
+	public String generateToken()
+	{}
+	
+
+}

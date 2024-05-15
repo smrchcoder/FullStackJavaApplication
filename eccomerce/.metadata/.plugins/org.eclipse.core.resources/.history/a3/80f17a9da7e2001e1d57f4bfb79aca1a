@@ -1,0 +1,9 @@
+package com.blueyonder.gatewayservice.filter;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class AuthenticationFilter {
+
+    @Autowired
+    private RouteValidator validator;
+}

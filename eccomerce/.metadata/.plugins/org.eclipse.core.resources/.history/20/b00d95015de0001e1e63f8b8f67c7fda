@@ -1,0 +1,5 @@
+package com.blueyonder.loginservice.security;
+
+public class config {
+
+}

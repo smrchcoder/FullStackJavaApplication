@@ -1,0 +1,5 @@
+package com.blueyonder.loginservice.filter;
+
+public class JwtAuthFilter {
+
+}

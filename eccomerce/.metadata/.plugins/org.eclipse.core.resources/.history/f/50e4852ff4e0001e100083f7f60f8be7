@@ -1,0 +1,15 @@
+package com.blueyonder.loginservice.services;
+
+import java.util.List;
+
+import com.blueyonder.shopppingservice.Dto.ProductDto;
+import com.blueyonder.shopppingservice.entities.Product;
+
+public interface ProductServices {
+	public Product addProduct(ProductDto productDto);
+	public boolean deleteProduct();
+	public Product getProductById();
+	public List<Product> getAllProductsByCategoryId(Integer categoryId);
+	
+
+}

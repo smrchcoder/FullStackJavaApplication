@@ -1,0 +1,5 @@
+package com.blueyonder.loginservice.service;
+
+public class LoginServiceImpl implements LoginService{
+
+}

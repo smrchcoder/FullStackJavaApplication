@@ -1,0 +1,64 @@
+package com.blueyonder.shopppingservice.services;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.servlet.mvc.condition.ProducesRequestCondition;
+
+import com.blueyonder.shopppingservice.Dto.ProductDto;
+import com.blueyonder.shopppingservice.entities.Category;
+import com.blueyonder.shopppingservice.entities.Product;
+import com.blueyonder.shopppingservice.repository.CategoryRepository;
+import com.blueyonder.shopppingservice.repository.ProductRepository;
+
+@Service
+public class ProductsServiceImpl implements ProductServices {
+	@Autowired
+	private ProductRepository productRepository;
+	@Autowired
+	private CategoryRepository categoryRepository;
+
+	@Override
+	public Product addProduct(ProductDto productDto) {
+		// TODO Auto-generated method stub
+		Optional<Category> result=categoryRepository.findById(productDto.getCategoryId());
+		if(result.isPresent())
+		{
+			Product product=new Product();
+			product.setProductName(productDto.getProductName());
+			product.setPrice(productDto.getPrice());
+			product.setDescription(productDto.getDescription());
+			product.setCategory(result.get());
+			product.setProductId(productDto.getProductId());
+			System.out.println(product);
+			return productRepository.save(product);
+		}
+		return null;
+	}
+
+	@Override
+	public boolean deleteProduct() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Product getProductById() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getAllProductsByCategoryId(Integer categoryId) {
+		Optional<Category> result=categoryRepository.findById(categoryId);
+		if(result.isPresent())
+		{
+			return productRepository.findByCategory(result.get());
+		}
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

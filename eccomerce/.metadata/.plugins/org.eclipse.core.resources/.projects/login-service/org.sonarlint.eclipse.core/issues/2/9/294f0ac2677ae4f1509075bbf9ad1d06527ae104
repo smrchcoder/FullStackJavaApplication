@@ -1,0 +1,7 @@
+
+}
+java:S6813"BRemove this field injection and use constructor injection instead.8·ıÌ‚„1b 0132ec8cee01c5dd244e1a60fe6448a1h
+ì
+java:S1128"XRemove this unused import 'org.springframework.security.config.Customizer.withDefaults'.8⁄¿ó„„1b bcfd9c8a2794cf68087c4ce0127c302bh
+ï
+java:S3305 "ZInject this field value directly into "securityFilterChain", the only method that uses it.8‰∑Ù‚„1b 8794f804801ff8ff57918e86b7b7f28dh

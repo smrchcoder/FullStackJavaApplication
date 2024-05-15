@@ -1,0 +1,13 @@
+package com.blueyonder.loginservice.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
+
+public class UserServiceImpl implements UserService{
+	//creating a  Bean of the passwordEncoder to encode the incoming password
+	@Autowired
+	public PasswordEncoder passwordEncoder;
+	public String addUser()
+	{}
+
+}

@@ -1,0 +1,10 @@
+
+e	java:S106""+Replace this use of System.out by a logger.8÷‚·Ûã1b bb1c3f2ea781263d3a2bb92b06a2061fh
+”
+java:S2293)"YReplace the type specification in this constructor call with the diamond operator ("<>").8ýÙ¾Úã1b a4f5c9920c2235bcf03341de5d2e2d58h
+”
+java:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").8ä›¯Úã1b a4f5c9920c2235bcf03341de5d2e2d58h
+}
+java:S6813"BRemove this field injection and use constructor injection instead.8ýÙ¾Úã1b 0132ec8cee01c5dd244e1a60fe6448a1h
+‹
+java:S1128"PRemove this unused import 'org.springframework.web.bind.annotation.CrossOrigin'.8žÚÚÿä1b f7cbae77bb4e7d346a6c2032f1e05944h

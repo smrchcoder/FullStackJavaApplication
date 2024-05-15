@@ -1,0 +1,8 @@
+
+ђ	java:S116"VRename this field "SECRECT_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ЏзЭЭг1b 290a1c6405a1d026ee2ea7a93c56c50bh
+\
+java:S1170"!Make this final field static too.8ЏзЭЭг1b 290a1c6405a1d026ee2ea7a93c56c50bh
+i
+java:S1128".Remove this unused import 'java.security.Key'.8яЪЏвг1b 06eb20107ded1424bba033ca6369744eh
+ѓ
+java:S1128"HRemove this unused import 'io.jsonwebtoken.security.SecretKeyAlgorithm'.8яЪЏвг1b 9c7ef3a65c4c578a3e8a7880c29c73e3h

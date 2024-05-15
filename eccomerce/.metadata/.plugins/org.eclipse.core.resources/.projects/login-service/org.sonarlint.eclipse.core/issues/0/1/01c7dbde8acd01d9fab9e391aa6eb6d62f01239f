@@ -1,0 +1,17 @@
+
+
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'8¦Ş‹Åã1b f31c9542f92d797a57d6f9bafca179cdh
+m
+java:S1135"2Complete the task associated to this TODO comment.8ûùÄã1b 36364ec9aa2f0995d283c1c6a92d2e5ch
+m
+java:S1135$"2Complete the task associated to this TODO comment.8ûùÄã1b 36364ec9aa2f0995d283c1c6a92d2e5ch
+m
+java:S1135*"2Complete the task associated to this TODO comment.8ûùÄã1b 36364ec9aa2f0995d283c1c6a92d2e5ch
+m
+java:S11350"2Complete the task associated to this TODO comment.8ûùÄã1b 36364ec9aa2f0995d283c1c6a92d2e5ch
+m
+java:S11356"2Complete the task associated to this TODO comment.8ûùÄã1b 36364ec9aa2f0995d283c1c6a92d2e5ch
+m
+java:S1135<"2Complete the task associated to this TODO comment.8ûùÄã1b 36364ec9aa2f0995d283c1c6a92d2e5ch
+m
+java:S1135B"2Complete the task associated to this TODO comment.8ûùÄã1b 36364ec9aa2f0995d283c1c6a92d2e5ch

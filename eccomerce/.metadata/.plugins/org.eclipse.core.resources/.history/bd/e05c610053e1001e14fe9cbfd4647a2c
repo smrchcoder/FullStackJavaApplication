@@ -1,0 +1,12 @@
+package com.blueyonder.loginservice.config;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+@Configuration
+@EnableWebSecurity
+public class SecurityConfig {
+	//This is for configuration for authorization and authentication
+	
+	
+
+}

@@ -1,0 +1,18 @@
+package com.blueyonder.shopppingservice.services;
+
+import java.util.List;
+
+import com.blueyonder.shopppingservice.Dto.ProductDto;
+import com.blueyonder.shopppingservice.entities.Product;
+import com.netflix.infix.lang.infix.antlr.EventFilterParser.boolean_expr_return;
+
+public interface ProductServices {
+	public Product addProduct(ProductDto productDto);
+	public boolean deleteProduct();
+	public Product getProductById();
+	public List<Product> getAllProductsByCategoryId(Integer categoryId);
+	public List<Product> getAllProducts();
+	 public Product updateProduct(ProductDto productDto);
+	
+
+}

@@ -1,0 +1,7 @@
+package com.blueyonder.loginservice.service;
+
+import com.blueyonder.loginservice.entities.UserEntity;
+
+public interface UserService {
+ public UserEntity addUser(UserEntity userEntity);
+}

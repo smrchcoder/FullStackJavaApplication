@@ -1,0 +1,19 @@
+
+‹
+java:S1128	"PRemove this unused import 'org.springframework.web.bind.annotation.CrossOrigin'.8αυ»’ε1b f7cbae77bb4e7d346a6c2032f1e05944h
+
+java:S2293/"YReplace the type specification in this constructor call with the diamond operator ("<>").b 7ad3f40af692cfd8b7b556e4f66974b5h
+n
+java:S1854-":Remove this useless assignment to local variable "result".b 974f70ddf545c7531a275861ef78e33dh
+Ά
+java:S1128"gRemove this unused import 'com.netflix.infix.lang.infix.antlr.EventFilterParser.null_predicate_return'.8αυ»’ε1b a5d3c8903ad3c19dd06c414f83df190dh
+v
+java:S6813"BRemove this field injection and use constructor injection instead.b 0132ec8cee01c5dd244e1a60fe6448a1h
+”
+java:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").8¬φ‰ε1b a4f5c9920c2235bcf03341de5d2e2d58h
+e	java:S106""+Replace this use of System.out by a logger.8αυ»’ε1b bb1c3f2ea781263d3a2bb92b06a2061fh
+”
+java:S2293?"YReplace the type specification in this constructor call with the diamond operator ("<>").8Φι§ε1b 50eaaff550f89aa93b700885b9f7446eh
+i
+java:S1128".Remove this unused import 'jakarta.ws.rs.GET'.8Φι§ε1b 971ffe05f106a18e10a2162480cc18a0h
+e	java:S106;"+Replace this use of System.out by a logger.8•Γρ§ε1b bb1c3f2ea781263d3a2bb92b06a2061fh

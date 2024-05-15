@@ -1,0 +1,26 @@
+
+†
+java:S1128"RRemove this unused import 'com.fasterxml.jackson.annotation.JsonIgnoreProperties'.b 6bdc4b68eaa0876d76c64f3f1b88cb0fh
+x
+java:S1128"DRemove this unused import 'jakarta.validation.constraints.NotBlank'.b 861c1eeb9a975fc994b46164ea6046c2h
+n
+java:S1128
+":Remove this unused import 'jakarta.persistence.FetchType'.b 4bc5ebe9931f22ea9b0dfce6360a89e4h
+t
+java:S1128"@Remove this unused import 'jakarta.validation.constraints.Size'.b a52802bce465009c1841a22274cf4430h
+q
+java:S1128"=Remove this unused import 'lombok.EqualsAndHashCode.Exclude'.b fbe4ea6f8d8118cb6785fdb8aa661ee8h
+o
+java:S1128";Remove this unused import 'jakarta.persistence.JoinColumn'.b 982abf4ba553106a2be4a92cbe1f6809h
+o
+java:S1128";Remove this unused import 'jakarta.persistence.ManyToMany'.b 889617adda04f0b25ca07693414bfdd9h
+n
+java:S1128":Remove this unused import 'jakarta.persistence.JoinTable'.b 433f9a39a6aaea88ce1321d731c794e4h
+b
+java:S1128".Remove this unused import 'java.util.HashSet'.b 79a492e0a88e35ca5e686650ffcc383eh
+u
+java:S1128"ARemove this unused import 'jakarta.validation.constraints.Email'.b 6cbc13b9bbce24c9847d2aee71666bcfh
+^
+java:S1128"*Remove this unused import 'java.util.Set'.b 216775ad32ddf78ab0fc531a8d5c2f36h
+|
+java:S1128"ARemove this unused import 'jakarta.persistence.UniqueConstraint'.8ìù¾Äã1b 762c76b7fcadf315d319b67af4a4b60bh

@@ -1,0 +1,9 @@
+package com.blueyonder.loginservice.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RequestMapping("/auth/signup")
+public class SignUpController {
+	
+
+}

@@ -1,0 +1,48 @@
+package com.blueyonder.loginservice.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.AuthenticationProvider;
+import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.SecurityFilterChain;
+
+import com.blueyonder.loginservice.service.UserInfoUserDetailsService;
+
+import static org.springframework.security.config.Customizer.withDefaults;
+
+@Configuration
+@EnableWebSecurity
+public class SecurityConfig {
+	//This is for configuration for authorization and authentication
+	@Bean
+	public UserDetailsService userDetailsService()
+	
+	{
+		return new UserInfoUserDetailsService();
+	}
+	 @Bean
+	    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+	        return http.csrf(csrf -> csrf.disable())
+                    .authorizeHttpRequests(requests -> requests
+                            .requestMatchers("/auth", "/auth/v1/signup","/swagger-ui/index.html").permitAll())
+                    .authorizeHttpRequests(requests -> requests.requestMatchers("/auth/v1/signup/**")
+                            .authenticated()).formLogin(withDefaults()).build();
+	    }
+
+	    @Bean
+	    public PasswordEncoder passwordEncoder() {
+	        return new BCryptPasswordEncoder();
+	    }
+	    @Bean
+	    public AuthenticationProvider authenticationProvider(){
+	        DaoAuthenticationProvider  authenticationProvider=new DaoAuthenticationProvider();
+	        authenticationProvider.setUserDetailsService(userDetailsService());
+	        authenticationProvider.setPasswordEncoder(passwordEncoder());
+	        return authenticationProvider;
+	    }
+}

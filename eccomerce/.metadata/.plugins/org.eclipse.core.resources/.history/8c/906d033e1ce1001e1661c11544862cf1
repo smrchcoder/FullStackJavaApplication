@@ -1,0 +1,5 @@
+package com.blueyonder.loginservice.security.config;
+
+public class WebSecurityConfig {
+
+}

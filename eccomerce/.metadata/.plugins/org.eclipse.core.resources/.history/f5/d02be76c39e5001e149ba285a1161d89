@@ -1,0 +1,16 @@
+package com.blueyonder.shopppingservice.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.blueyonder.shopppingservice.entities.Category;
+import com.blueyonder.shopppingservice.entities.Product;
+@Repository
+public interface ProductRepository extends CrudRepository<Product, Integer>{
+   public List<Product>  findByCategory(Category category);
+   @Query("SELECT p.productName FROM Product p")
+   		public List<String> getAllProducts();
+}
